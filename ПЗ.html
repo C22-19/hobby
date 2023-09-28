@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваша сторінка</title>
+    <style>
+        /* Стилі для шапки */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Стилі для форми реєстрації */
+        #registration-form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Стилі для полів та кнопки форми */
+        #registration-form input[type="text"],
+        #registration-form input[type="email"],
+        #registration-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #registration-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+	
+	main {
+	    display: flex;
+	    justify-content: space-between;
+	}
+        body {
+  
+             background-image: url('C:\\Users\\user0222\\Downloads\\pngtree-gradient-color-modern-design-with-curve-shapes-image_384229.jpg'); /* Шлях до вашого фонового зображення */
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center center; /* Розміщуємо фон по центру */
+             background-attachment: fixed;
+        }
+
+       
+
+</head>
+</style>
+
+  
+   <body>
+    <header>
+        <h1>Ласкаво просимо до нашого сайту</h1>
+        <!-- Посилання для відкриття форми реєстрації -->
+        <a href="#" id="show-registration-form">Зареєструватися</a>
+    </header>
+
+   
+    <div id="registration-form" style="display: none;">
+        <h2>Реєстрація</h2>
+        <form action="file:///D:/Бланк.html" method="post">
+          
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </div>
+
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const showFormLink = document.getElementById("show-registration-form");
+            const registrationForm = document.getElementById("registration-form");
+
+            showFormLink.addEventListener("click", function(event) {
+                event.preventDefault();
+                registrationForm.style.display = "block";
+            });
+        });
+    </script> 
+
+</body>
+<style>
+table{
+        width: 900px;
+        border-collapse: collapse;
+      }
+      td, th{
+        border: 1px solid black;
+        text-align: center;
+      }
+</style>
+<main>
+<table>
+    <tr>
+      <td></td>
+      <th>18.09 Понеділок</th>
+      <th>19.09 Вівторок</th>
+      <th>20.09 Середа</th>
+      <th>21.09 Четвер</th>
+      <th>22.09 П'ятниця</th>
+      <th>23.09 Субота</th>
+      <th>24.09 Неділя</th>
+    </tr>
+  <tr>
+    <td>8:30-9:15</td>
+    <td rowspan="2">Право<br>517 каб.</td>
+    <td rowspan="2">ФВ<br>парк</td>
+    <td rowspan="2">ТІМ<br>503 каб.</td>
+    <td rowspan="2">СР<br>503 каб.</td>
+    <td rowspan="2">ФВ<br>парк</td>
+    <td rowspan="2">ЗВП<br>107 каб.</td>
+    <td rowspan="8">Вихідний день</td>
+  </tr>
+  <tr>
+    <td>9:20-10:05</td>
+  </tr>
+    <tr>
+      <td>10:25-11:10</td>
+      <td rowspan="2">ЗВП<br>6 каб.</td>
+      <td rowspan="2">ТІК<br>парк</td>
+      <td rowspan="2">ТІМ<br>503 каб.</td>
+      <td rowspan="2">Право<br>101 каб.</td>
+      <td rowspan="2">ТС<br>410</td>
+      <td rowspan="2">ЗВП<br>107 каб.</td>
+
+    </tr>
+    <tr>
+      <td>11:15-12:00</td>
+    </tr>
+  <tr>
+    <td>12:20-13:05</td>
+    <td rowspan="2">Програмування<br>503 каб.</td>
+    <td rowspan="2">ТС<br>410 каб.</td>
+    <td rowspan="2">ІМ<br>413 каб.</td>
+    <td rowspan="2">ФВ<br>парк</td>
+    <td rowspan="2">СР<br>517 каб.</td>
+    <td rowspan="2">СР<br>107 каб.</td>
+  </tr>
+  <tr>
+    <td>13:10-13:55</td>
+  </tr>
+    <tr>
+      <td>16:10-16:55</td>
+      <td rowspan="2">СР<br>101 каб.</td>
+      <td rowspan="2">СР<br>101 каб.</td>
+      <td rowspan="2">СР<br>101 каб.</td>
+      <td rowspan="2">Програмування<br>101 каб.</td>
+      <td rowspan="2">СР<br>101 каб.</td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>17:00-17:45</td>
+    </tr>
+
+</table>
+<img src="C:/Users/user0222/Downloads/Picsart_23-09-26_13-04-33-304.png" alt="Це зразок зображення" height="300px">
+</main>
+
+</html>
+
