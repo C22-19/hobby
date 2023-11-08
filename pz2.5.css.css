@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    border: 1px solid black;
+}
+.box_static{    /*контейнер з статичним позиціонуванням*/
+    background-color: rgb(71, 122, 71);
+    border: 1px solid black;
+    z-index: 1; /*показується четвертим*/
+}
+.box_relative{     /*контейнер з відносним позиціонуванням*/
+    background-color: rgb(105, 105, 226);
+    position: relative;
+    top: 40px;
+    left: 300px;
+    border: 1px solid black;
+    z-index: 2; /*показується третім*/
+}
+.box_absolute{    /*контейнер з абсолютним позиціонуванням*/
+    background-color: rgb(136, 133, 71);
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    border: 1px solid black;
+    z-index: 3; /*показується другим*/
+}
+.box_fixed{    /*контейнер з фіксованим позиціонуванням*/
+    background-color: rgb(153, 78, 78);
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    border: 1px solid black;
+    z-index: 4; /*показується першим*/
+}

@@ -1,0 +1,19 @@
+.font-formatting{
+    font-family: Arial, Helvetica, sans-serif; /*шрифт Arial, sans-serif*/
+    size: 18px; /*розмір шрифту: 18px*/
+    font-weight: bolder; /*напівжирний шрифт*/
+} 
+.text-formatting{
+    color: blue; /*колір тексту: синій*/
+    text-align: center; /*розміщення тексту: по центру*/
+    line-height: 1.5; /*міжрядковий інтервал: 1.5*/
+}
+.spacing{
+    padding: 20px 20px 20px 20px; /*внутрішній відступ з усіх сторін: 20px*/
+    margin: 10px 10px 10px 10px; /*зовнішній відступ з усіх сторін: 10px*/
+}
+.border{
+    border: 2px solid red; /*товщина рамки: 2px, колір рамки: червоний*/
+    border-radius: 10px; /*заокруглення кутів: 10px*/
+    border-style: dotted; /*тип рамки: пунктирна*/
+}

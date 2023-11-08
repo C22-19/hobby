@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://phonoteka.org/uploads/posts/2022-02/thumbs/1644405844_68-phonoteka-org-p-generator-fonov-dlya-saita-76.jpg);
+}
+ul.hor{
+    display: flex;
+    justify-content: space-around;
+    background-color: #455975;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    margin: 30px 100px 20px 100px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+li.hor{
+    padding: 20px;
+}
+div.ver{
+    display: block;
+    justify-content: space-around;
+    background-color: #455975;
+    border-radius: 25px;
+    padding: 20px;
+    width: 100px;
+    background-position: center;
+    list-style: none;
+    text-align: center;
+
+}
+li.ver{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #252e3b;
+    transition: color 0.7s ease;
+}
+a:hover{
+    color: #7799c9;
+}
+.pict{
+    width: 30px;
+    height: 30px;
+}
