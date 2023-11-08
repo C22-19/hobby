@@ -1,0 +1,22 @@
+.font-formatting {
+    font-family: Arial, sans-serif; /* Змінити шрифт на Arial, sans-serif */
+    font-size: 18px; /* Встановити розмір шрифту 18px */
+    font-weight: bold; /* Зробити текст напівжирним */
+}
+
+.text-formatting {
+    color: #0000FF; /* Змінити колір тексту на синій (#0000FF) */
+    text-align: center; /* Вирівняти текст по центру */
+    line-height: 1.5; /* Додати міжрядковий інтервал 1.5 */
+}
+.padding-margin-formatting {
+    padding: 20px; /* Внутрішній відступ: 20px з усіх сторін */
+    margin: 10px; /* Зовнішній відступ: 10px з усіх сторін */
+}
+.border-formatting {
+    border-style: dotted; /* Тип рамки: пунктирна (dotted) */
+    border-color: #EE0000; /* Колір рамки: червоний (#EE0000) */
+    border-width: 20px; /* Товщина рамки: 20px */
+    border-radius: 10px; /* Заокруглені кути: радіус 10px */
+}
+	
