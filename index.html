@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <style>  
+        body{
+            background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/thumbs/1613369513_190-p-fon-dlya-saita-bezhevii-231.jpg);
+        }
+        .form{
+            float: right;
+            border: 2px solid rgb(121, 64, 44);
+            border-radius: 5px;
+            text-align: center;
+            width: 250px;
+            background-color: #f5cfc5;
+            padding: 5px 0px 10px 0px;
+        }
+        label{
+            color: #493d39;
+            font-family: 'calibri', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+            font-style: italic;
+        }
+        input[type="submit"]{
+            background-color: #f29a6b;
+            font-family: 'calibri', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+            font-style: italic;
+            border: 2px solid rgb(121, 64, 44);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form"> <!-- блок форми реєстрації -->
+        <form action="submit.html" method="POST" target="_blank" onsubmit="return validateForm()">
+            <label for="name">Зареєструватися</label> <br>
+            <label for="name">Ім'я:</label> <br>
+            <input type="text" id="name" name="name" required><br><br> <!-- поле введення імені -->
+        
+            <label for="surname">Прізвище:</label> <br>
+            <input type="text" id="surname" name="surname" required><br><br> <!-- поле введення прізвища -->
+        
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="email" required><br><br> <!-- поле введення електронної пошти -->
+        
+            <label for="password">Пароль:</label> <br>
+            <input type="password" id="password" name="password" required><br><br> <!-- поле введення паролю -->
+        
+            <label for="password">Підтвердіть пароль:</label> <br>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br> <!-- поле підтвердження паролю -->
+        
+            <input type="submit" value="Відправити">
+          </form>
+          <!-- перевірка паролю -->
+          <script> 
+            function validateForm() {
+                var password = document.getElementById("password").value;
+                var confirm_password = document.getElementById("confirm_password").value;
+                if (password !==confirm_password ) {
+                    alert("Неправильний пароль");
+                    return false;
+                }
+                return true;
+            }
+          </script>
+        </div>
+</body>
+</html>
