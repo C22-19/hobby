@@ -1,68 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <title>Page Title</title>
-    <style>  
-        body{
-            background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/thumbs/1613369513_190-p-fon-dlya-saita-bezhevii-231.jpg);
-        }
-        .form{
-            float: right;
-            border: 2px solid rgb(121, 64, 44);
-            border-radius: 5px;
-            text-align: center;
-            width: 250px;
-            background-color: #f5cfc5;
-            padding: 5px 0px 10px 0px;
-        }
-        label{
-            color: #493d39;
-            font-family: 'calibri', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
-            font-style: italic;
-        }
-        input[type="submit"]{
-            background-color: #f29a6b;
-            font-family: 'calibri', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
-            font-style: italic;
-            border: 2px solid rgb(121, 64, 44);
-            border-radius: 5px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<title>Dmytro Savkov</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-    <div class="form"> <!-- блок форми реєстрації -->
-        <form action="submit.html" method="POST" target="_blank" onsubmit="return validateForm()">
-            <label for="name">Зареєструватися</label> <br>
-            <label for="name">Ім'я:</label> <br>
-            <input type="text" id="name" name="name" required><br><br> <!-- поле введення імені -->
-        
-            <label for="surname">Прізвище:</label> <br>
-            <input type="text" id="surname" name="surname" required><br><br> <!-- поле введення прізвища -->
-        
-            <label for="email">Email:</label> <br>
-            <input type="email" id="email" name="email" required><br><br> <!-- поле введення електронної пошти -->
-        
-            <label for="password">Пароль:</label> <br>
-            <input type="password" id="password" name="password" required><br><br> <!-- поле введення паролю -->
-        
-            <label for="password">Підтвердіть пароль:</label> <br>
-            <input type="password" id="confirm_password" name="confirm_password" required><br><br> <!-- поле підтвердження паролю -->
-        
-            <input type="submit" value="Відправити">
-          </form>
-          <!-- перевірка паролю -->
-          <script> 
-            function validateForm() {
-                var password = document.getElementById("password").value;
-                var confirm_password = document.getElementById("confirm_password").value;
-                if (password !==confirm_password ) {
-                    alert("Неправильний пароль");
-                    return false;
-                }
-                return true;
-            }
-          </script>
-        </div>
+
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="https://i.imgur.com/SekADBe.jpg" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">Dmytro Savkov</p>
+           <p class="regular">Sportsman</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fas fa-map-signs"></i>
+             </div>
+             <div class="data">
+               Lisitchansk <br /> Ukraine
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data">
+               +380669434328
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data">
+               dimasavkov05@gmail.com
+             </div>
+           </li>
+           
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+             <div class="skill_progress">
+               <span style="width: 80%;"></span>
+             </div>
+             <div class="skill_per">60%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 70%;"></span>
+             </div>
+             <div class="skill_per">50%</div>
+           </li>
+           <li>
+             
+             <div class="skill_name">
+               JS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 60%;"></span>
+             </div>
+             <div class="skill_per">30%</div>
+           </li>
+           <li>
+             
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Social</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+				<a href="https://www.facebook.com/profile.php?id=100035628823828">Savkov Dmytro </a> 
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <a href="https://twitter.com/dima118271">Savkov Dmytro </a>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-youtube"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Youtube</p>
+              	<a href="https://www.youtube.com/channel/UC2Vhbi98obSyn98XVs-XhsA">Savkov Dmytro </a> 
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-linkedin"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Instagram</p>
+              <a href="https://instagram.com/_dmitry_.s?igshid=YTQwZjQ0NmI0OA==">@_dmitry_.s </a> 
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">About us</p>
+         </div>
+        <p>I am studying at ISZZI KPI named after Igor Sikorsky is in his second year, majoring in cyber security. I have been practicing professional kikboxing, voleyball and football since I was 13 years, I received the winner and prize-winner of many regional and all-Ukrainian competitions.</p>
+    </div>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Sport Experience</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">2014 - 2016</div> 
+                <div class="info">
+                     <p class="semi-bold">Football</p> 
+                  <p>Took part in oblate competitions and All-Ukrainian competitions, won prizes</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2017 - 2020</div>
+              <div class="info">
+                     <p class="semi-bold">Kikboxing</p> 
+                  <p>Took part in oblate competitions and All-Ukrainian competitions, won prizes</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2022 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">Volleyball</p> 
+                  <p>Сreated their team called "Ace". Took part in city competitions. They won prizes</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Education</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2011-2018</div> 
+                <div class="info">
+                     <p class="semi-bold">Lysichan Lyceum №14</p> 
+                  <p>He studied here until the 7th grade, and then, at the request of his parents, he transferred to another school.</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2018 - 2022</div>
+              <div class="info">
+                     <p class="semi-bold">Lysichan Lyceum №3(Gymnasium)</p> 
+                  <p>He graduated from gymnasium and entered the institute</p>
+                </div>
+            </li>
+			<li>
+              <div class="date">2022 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">Institute of Special Communications and Information Protection</p> 
+                  
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Hobby</p>
+         </div>
+       <ul>
+         <li><i class="fas fa-book"></i></li>
+         <li><i class="fas fa-gamepad"></i></li>
+         <li><i class="fas fa-music"></i></li>
+         <li><i class="fab fa-pagelines"></i></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
